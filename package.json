@@ -1,0 +1,27 @@
+{
+  "name": "babel-standalone-jsx-only-prototype",
+  "version": "1.0.0",
+  "description": "Minimal reproduction for building Babel for the browser with only JSX transpilation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "prettier": "prettier {*.*,**/*.*} --single-quote --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curran/babel-standalone-jsx-only-prototype.git"
+  },
+  "author": "Curran Kelleher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curran/babel-standalone-jsx-only-prototype/issues"
+  },
+  "homepage": "https://github.com/curran/babel-standalone-jsx-only-prototype#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/plugin-transform-react-jsx": "^7.17.12",
+    "prettier": "^2.6.2",
+    "rollup": "^2.74.1"
+  }
+}
